@@ -21,7 +21,7 @@ class AvalaiClient:
         return self.client.audio
 
     def _set_api_config(self, api_key, base_url):
-        default_api_key = "aa-UGqhFeHZm86jdMFDu1DoJ2q2OgThodQlHuCfhu7OBCPXMruY"
+        default_api_key = ""
         default_base_url = "https://api.avalai.ir/v1"
         return api_key or default_api_key, base_url or default_base_url
 
